@@ -12,7 +12,7 @@ app_movies:
     # the controller value has the format 'controller_class::method_name'
     controller: App\Controller\MoviesController::index
     methods:    GET|HEAD
-app_names:
-    path: /names
+app_about:
+    path: /about
     # the controller value has the format 'controller_class::method_name'
-    controller: App\Controller\NamesController::index
+    controller: App\Controller\AboutController::index

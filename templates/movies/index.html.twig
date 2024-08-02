@@ -1,4 +1,12 @@
 {% extends '/base/base.html.twig' %} 
-{% block content %}
-<h1>{{name}} is loving symfony</h1>
+{% block maincontent %}
+<h1> I am loving symfony</h1>
+<section>
+    <ul>
+       {% for movie in movies %}
+         <li>{{ movie }}</li>
+       {% endfor %}
+    </ul> 
+</section>
 {% endblock %}
+
